@@ -1,6 +1,10 @@
-from django.http import HttpResponse  # type: ignore
-from django.shortcuts import render  # type: ignore
+from django.http import HttpResponse
+from django.shortcuts import render
 
 
 def index(request):
     return HttpResponse("Hello World!")
+
+
+def newproduct(request):
+    return HttpResponse("New Product")
